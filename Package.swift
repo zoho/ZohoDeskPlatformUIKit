@@ -11,8 +11,8 @@ let package = Package(
         .library(name: "ZohoDeskPlatformUIKit", targets: ["ZohoDeskPlatformUIKit"]),
     ],
     targets: [
-        .binaryTarget(name: "ZohoDeskPlatformDataBridge", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPlatformDataBridge/iOS/2.0.0-beta.12/ZDPDataBridge.zip", checksum: "80b56fde06202b7ed2c4cf7bc4e126118dd4ea5ff303e52d78c9a19615c5d021"),
-        .binaryTarget(name: "ZDMediaPickerSDK", url: "https://maven.zohodl.com/ZohoDesk/ZDMediaPickerSDK/iOS/1.0.8/XCFramework.zip", checksum: "2cbe82433ca5ecad2f993d2d45aa99e0e9f7e18a3175cff31178d671f13d3067"),
-        .binaryTarget(name: "ZohoDeskPlatformUIKit", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPlatformUIKit/iOS/2.0.0-beta.12/ZDPUIBuilder.zip", checksum: "2b847588b7d0c9ad36010384940f51eb86f5f672b7a603ceab45a46872e2204a"),
+        .binaryTarget(name: "ZohoDeskPlatformDataBridge", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPlatformDataBridge/iOS/2.0.0-beta.13/ZDPDataBridge.zip", checksum: "7fa061b6a1e9db5b67bbb413683fa89595856d41e81bcd4f733cc6c61ce4e5eb"),
+        .binaryTarget(name: "ZDMediaPickerSDK", url: "https://maven.zohodl.com/ZohoDesk/ZDMediaPickerSDK/iOS/1.0.9/XCFramework.zip", checksum: "455c8555a6b73f9345875d2bfd815167a477e6df9744cc7fbd750318a8f0bc51"),
+        .binaryTarget(name: "ZohoDeskPlatformUIKit", url: "https://maven.zohodl.com/ZohoDesk/ZohoDeskPlatformUIKit/iOS/2.0.0-beta.13/ZDPUIBuilder.zip", checksum: "4f69ed2ec9b496c366107f88db455ffde979647dd9a3f22ad84043f9e8b8d3ea"),
     ]
 )
